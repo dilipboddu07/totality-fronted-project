@@ -1,0 +1,45 @@
+import "./index.css";
+
+const LoginPage = () => (
+  <div className="LoginPageCont">
+    <h1 className="loginHeading">Login Page</h1>
+    <div className="formCont">
+      <form className="loginForm">
+        <label for="name">*Name</label>
+        <br />
+        <input type="text" placeholder="Enter Your Name" id="name" />
+        <br />
+        <label for="password">*Password</label>
+        <br />
+        <input type="Password" placeholder="Enter Password" id="password" />
+        <br />
+        <button type="button">Submit</button>
+      </form>
+    </div>
+  </div>
+);
+
+export default LoginPage;
+
+ CSS Code
+
+.LoginPageCont {
+  background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+  height: 100vh;
+}
+.loginForm {
+  background-color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.formCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginHeading {
+  color: white;
+  align-self: center;
+}
