@@ -22,10 +22,3 @@ const Cart = () => (
 export default Cart;
 
 
-CSS code
-
-.CartContainer {
-  background-color: lightcoral;
-  padding: 40px;
-  min-height: 100vh;
-}
