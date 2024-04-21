@@ -139,19 +139,3 @@ class Home extends Component {
 
 export default Home;
 
-CSS Code
-
-.selectHead {
-  height: 74vh;
-  display: flex;
-  align-self: center;
-}
-.mainPageCont {
-  background-color: aquamarine;
-  height: 100vh;
-}
-.totalDetailsCont {
-  display: flex;
-  width: 1500px;
-  overflow-y: wrap;
-}
