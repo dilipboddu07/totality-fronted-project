@@ -1,0 +1,21 @@
+
+.LoginPageCont {
+  background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+  height: 100vh;
+}
+.loginForm {
+  background-color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.formCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginHeading {
+  color: white;
+  align-self: center;
+}
