@@ -9,3 +9,5 @@ We can adjust the location of the rental house by using the select bar in the na
 we can add the house to a cart.
 
 their will be a button "Add TO Cart" by clicking on that we can add the house into cart.
+
+due to some git hub push problems i push the code in different way please excuse mee.
