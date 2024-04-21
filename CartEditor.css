@@ -1,0 +1,13 @@
+
+.CartDetailsCont {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-content: space-around;
+  margin-bottom: 30px;
+}
+.CartImg {
+  margin-right: 100px;
+  height: 300px;
+  width: 300px;
+}
