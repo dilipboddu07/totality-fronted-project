@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const LoginPage = () => (
@@ -13,12 +14,12 @@ const LoginPage = () => (
         <br />
         <input type="Password" placeholder="Enter Password" id="password" />
         <br />
-        <button type="button">Submit</button>
+        <button type="button">
+          <Link to="/">Submit</Link>
+        </button>
       </form>
     </div>
   </div>
 );
 
 export default LoginPage;
-
- 
